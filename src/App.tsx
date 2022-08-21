@@ -33,6 +33,21 @@ const questions: QuestionType[] = [
     ],
     correct: 2,
   },
+  {
+    title: "Каким методом отобразить список на странице?",
+    variants: ["map()", "filter()", "reduce()"],
+    correct: 0,
+  },
+  {
+    title: "React - это ... ?",
+    variants: ["библиотека", "фреймворк", "приложение"],
+    correct: 0,
+  },
+  {
+    title: "Какой был первый вопрос?",
+    variants: ["Что такое JSX?", "React - это ... ?", "Компонент - это ... "],
+    correct: 1,
+  },
 ];
 
 function App() {
